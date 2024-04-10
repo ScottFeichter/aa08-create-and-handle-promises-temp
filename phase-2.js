@@ -1,24 +1,34 @@
 function stretch(timeLeft) {
   // refactor your code from phase 1
-  // Your code here 
+  // Your code here
+  return new Promise((res, rej) => {
+
+  if(timeLeft < 1000) {
+    rej(`not enough time to stretch`);
+  } else {
+    
+  }
+});
+
 }
 
 
 function runOnTreadmill(timeLeft) {
   // refactor your code from phase 1
-  // Your code here 
+  // Your code here
 }
 
 
 function liftWeights(timeLeft) {
   // refactor your code from phase 1
-  // Your code here 
+  // Your code here
 }
 
 
 function workout(totalTime) {
   // refactor your code from phase 1
-  // Your code here 
+  // Your code here
+  stretch(totalTime)
 }
 
 /* ============================ TEST YOUR CODE ============================
